@@ -206,7 +206,7 @@ var TimeField = /** @class */ (function (_super) {
             return React.cloneElement(input, __assign(__assign({}, props), { value: value,
                 style: style, onChange: onChangeHandler }));
         }
-        return (React.createElement("input", __assign({ type: "text" }, props, { value: value, onChange: onChangeHandler, style: __assign({ width: showSeconds ? 54 : 35 }, style) })));
+        return (React.createElement("input", __assign({ type: "text" }, props, { value: value, onChange: onChangeHandler, style: __assign({ width: showSeconds ? 57 : 38 }, style) })));
     };
     TimeField.defaultProps = {
         showSeconds: false,
